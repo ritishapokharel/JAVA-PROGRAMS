@@ -1,6 +1,4 @@
-package constructors;
-
-public class NonParameterized {
+class NonParameterized {
     // Non-parameterized constructor (no arguments)
     public NonParameterized() {
         int id = 1;
