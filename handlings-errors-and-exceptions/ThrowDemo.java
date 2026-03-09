@@ -1,0 +1,1 @@
+//throw keyword shouldnt be used for predefined exceptions like arithmetic exceptions or arrayindexoutofbouds etc. it should be used for custom exceptions or user defined exceptions
