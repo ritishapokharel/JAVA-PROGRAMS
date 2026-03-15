@@ -6,7 +6,7 @@ class UpdateDemo {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("url", "un", "pw");
             Statement st = con.createStatement();
-            int result = st.executeUpdate("UPDATE Student SET Name='echo' WHERE ID=1");
+            int result = st.executeUpdate("UPDATE student SET Name='echo' WHERE ID=1");
             System.out.println(result + " row is updated");
             con.close();
         } catch (Exception e) {
